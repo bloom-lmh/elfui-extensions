@@ -1,0 +1,23 @@
+{
+  "name": "elfui-extensions-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "description": "Official extension packages for ElfUI.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloom-lmh/elfui-extensions.git"
+  },
+  "homepage": "https://github.com/bloom-lmh/elfui-extensions",
+  "bugs": {
+    "url": "https://github.com/bloom-lmh/elfui-extensions/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm --dir chain build",
+    "typecheck": "pnpm --dir chain typecheck",
+    "test": "pnpm --dir chain test",
+    "verify": "pnpm --dir chain build && pnpm --dir chain typecheck && pnpm --dir chain test"
+  }
+}
