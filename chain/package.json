@@ -1,7 +1,15 @@
 {
   "name": "@elfui/chain",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.3",
   "description": "Chain-style component extension package for ElfUI.",
+  "keywords": [
+    "elfui",
+    "chain",
+    "builder",
+    "web-components",
+    "typescript",
+    "extension"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bloom-lmh/elfui-extensions.git",
@@ -37,10 +45,10 @@
     "prepack": "pnpm build"
   },
   "dependencies": {
-    "@elfui/compiler": "0.1.0-beta.1",
-    "@elfui/reactivity": "0.1.0-beta.1",
-    "@elfui/runtime": "0.1.0-beta.1",
-    "@elfui/shared": "0.1.0-beta.1"
+    "@elfui/compiler": "0.1.0-beta.3",
+    "@elfui/reactivity": "0.1.0-beta.3",
+    "@elfui/runtime": "0.1.0-beta.3",
+    "@elfui/shared": "0.1.0-beta.3"
   },
   "license": "MIT",
   "devDependencies": {
